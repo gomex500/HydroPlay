@@ -14,6 +14,11 @@ config/name="HydroPlay"
 run/main_scene="res://MainMenu.tscn"
 config/icon="res://asset/art/logoHydroFeed.png"
 
+[autoload]
+
+MusicaFondo="*res://MusicaFondo.tscn"
+VariableGlobal="*res://variable_global.gd"
+
 [display]
 
 window/size/width=300
